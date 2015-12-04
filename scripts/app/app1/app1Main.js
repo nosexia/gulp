@@ -1,5 +1,7 @@
 require([
-	'underscore'
-],function(_){
-	console.log(_)
+	'underscore',
+	'jquery',
+	'backbone'
+],function(_, $, backbone){
+	console.log(backbone)
 })	

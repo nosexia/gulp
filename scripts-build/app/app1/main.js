@@ -96,9 +96,11 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__.e/* require */(1, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [
-		__webpack_require__(1)
-	]; (function(_){
-		console.log(_)
+		__webpack_require__(1),
+		__webpack_require__(2),
+		__webpack_require__(4)
+	]; (function(_, $, backbone){
+		console.log(backbone)
 	}.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));})	
 
 /***/ }
