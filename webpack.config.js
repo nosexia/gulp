@@ -1,7 +1,6 @@
 module.exports = {
 	resolve:{
 		modulesDirectories:['scripts'],
-		//webpack能够给backbone找到jquery和underscore依赖
 		alias:{
 			'underscore': 'lib/underscore.js',
 			'jquery': 'lib/jquery',

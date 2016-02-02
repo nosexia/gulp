@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/nosexia/gulp#readme",
   "devDependencies": {
-    "glob": "^6.0.1"
+    "glob": "^6.0.1",
+    "gulp-plumber": "^1.0.1",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "package_practice": "git+https://git@github.com/nosexia/package_practice.git#1.0.2"
   }
 }
