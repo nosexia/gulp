@@ -2,12 +2,14 @@
 var gulp = require('gulp');
 var webpack = require('webpack');
 var gulpWebpack = require('webpack-stream');
-// 加载vinyl-named-with-path，解析成带路径的（坑）
+// 加载vinyl-named-with-path，解析时带路径（坑）
 var named = require('vinyl-named-with-path');
 var plumber = require('gulp-plumber');
 
 
-var devConfig = {};
+var devConfig = {
+	devtool: '#source-map'
+};
 
 gulp.task('dev-test', function(){
     return gulp.src('./scripts/**/*Main.js')

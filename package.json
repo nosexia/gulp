@@ -24,6 +24,6 @@
     "webpack-stream": "^3.0.1"
   },
   "dependencies": {
-    "package_practice": "git+https://git@github.com/nosexia/package_practice.git#1.0.2"
+    "package_practice": "git+https://git@github.com/nosexia/package_practice.git#1.0.3"
   }
 }
